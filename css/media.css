@@ -1,0 +1,95 @@
+@media(max-width: 1499px){
+	.responsive-content{
+		padding: 80px 0;
+	}
+	.Director-section > img {
+    right: 70px;
+}
+}
+
+
+@media(max-width: 1199px){
+/* large*/
+header .row{
+	min-height: 650px;
+}
+.responsive-content {
+    padding: 0px 0;
+}
+
+.responsive-section > img {
+    left: -70px;
+}
+.responsive-section {
+    padding: 0px 0;
+}
+.Download-section > img {
+    position: absolute;
+    margin-top: 80px;
+    height: fit-content;
+}
+.Built-section > img {
+    position: absolute;
+    right: -246px;
+}
+.Director-section > img {
+    right: 24px;
+}
+}
+
+@media(max-width: 991px){
+/* md */
+header .row{
+	min-height: 550px;
+}
+.responsive-section {
+    padding: 10px 0;
+}
+.Director-section > img {
+    right: 3px;
+}
+.Built-section > img{
+	position: relative;
+}
+.Download-section > img {
+    position: absolute;
+    margin-top: 88px;
+    height: fit-content;
+}
+}
+
+@media(max-width: 767px){
+/* sm */
+header .row{
+	min-height: 450px;
+}
+.banner {
+    text-align: center;
+}
+.banner h1{
+	font-size: 30px;
+	font-weight: 600;
+}
+.responsive-section > img{
+	position: relative;
+}
+.Director-section > img {
+    right: -155px;
+    position: relative;
+}
+.Built-section > img{
+	position: relative;
+}
+}
+
+@media(max-width: 575px){
+/* xs */
+.Director-section > img {
+    position: relative;
+    right: -45px;
+}
+.Built-section >img{
+	position: relative;
+}
+}
+
